@@ -1,10 +1,8 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Agao-Blog
-subtitle: ''
+title: Agao
+subtitle: '想不想看花海盛开'
 description: 'Agao-Blog'
 keywords:
 author: Agao
@@ -14,7 +12,6 @@ timezone: 'Asia/Shanghai'
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://zijingagao.github.io/AgaoBlog/
-root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -95,19 +92,16 @@ include:
 exclude:
 ignore:
 
-# Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: stellar
+# 主题设置
+theme: stun
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+# 发布插件 Deployment
 deploy:
   type: git
   repo: git@github.com:zijingAgao/AgaoBlog.git
-  # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
 
+# 搜索插件
 search:
   path: search.xml
   field: post
