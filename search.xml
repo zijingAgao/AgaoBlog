@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>IDEA_Active</title>
+      <link href="/AgaoBlog/2023/09/06/IDEA-Active/"/>
+      <url>/AgaoBlog/2023/09/06/IDEA-Active/</url>
+      
+        <content type="html"><![CDATA[<p>date: 2023-09-06 15:51:47</p><p>已支持目前最新的2023.2.1版本。</p>        <h3 id="一、下载安装IDEA"   >          <a href="#一、下载安装IDEA" class="heading-link"><i class="fas fa-link"></i></a><a href="#一、下载安装IDEA" class="headerlink" title="一、下载安装IDEA"></a>一、下载安装IDEA</h3>      <p>官网地址：<span class="exturl"><a class="exturl__link"   href="https://www.jetbrains.com/idea/download" >https://www.jetbrains.com/idea/download</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p><p>IDEA安装过程：略</p><p><img src="/AgaoBlog/%E7%89%9B%E9%80%BC%E5%93%84%E5%93%84.png"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>激活IDEA</title>
+      <link href="/AgaoBlog/2023/09/06/activeIdea/"/>
+      <url>/AgaoBlog/2023/09/06/activeIdea/</url>
+      
+        <content type="html"><![CDATA[<p>已支持目前最新的2023.2.1版本。</p><h3 id="一、下载安装IDEA"><a href="#一、下载安装IDEA" class="headerlink" title="一、下载安装IDEA"></a>一、下载安装IDEA</h3><p>官网地址：<a href="https://www.jetbrains.com/idea/download">https://www.jetbrains.com/idea/download</a></p><p>IDEA安装过程：略</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JAVA 安装使用</title>
+      <link href="/AgaoBlog/2023/09/06/jdk/"/>
+      <url>/AgaoBlog/2023/09/06/jdk/</url>
+      
+        <content type="html"><![CDATA[<p>Oracle Java</p><h3 id="一、JAVA-下载"><a href="#一、JAVA-下载" class="headerlink" title="一、JAVA 下载"></a>一、JAVA 下载</h3><pre><code>官网地址：https://www.oracle.com/cn/java/technologies/downloads/</code></pre><p>根据所需系统版本下载对应版本</p><pre><code>eg: windows-64bit: 下载 jdk-8u381-windows-x64.exe</code></pre><h3 id="二、JAVA-安装"><a href="#二、JAVA-安装" class="headerlink" title="二、JAVA 安装"></a>二、JAVA 安装</h3><blockquote><p>建议有专门存放开发环境的路径：</p></blockquote><pre><code>eg:D:\Environment\java\jdkD:\Environment\java\jre</code></pre><p>1.双击打开.exe文件，选择上述安装路径。</p><p>2.安装JDK时，会打开安装JRE的引导，选择上述安装路径。</p><h3 id="三、配置环境变量"><a href="#三、配置环境变量" class="headerlink" title="三、配置环境变量"></a>三、配置环境变量</h3><blockquote><p>eg: windows 10 (T_T)</p></blockquote><p>右键此电脑-&gt;属性-&gt;高级系统设置-&gt;环境变量-&gt;系统变量（注意不是用户变量）</p><pre><code>添加如下配置（Key: Value）：Path是已有key，添加value即可JAVA_HOME : D:\Environment\java\jdkCLASSPATH : .;%Java_Home%\bin;%Java_Home%\lib\dt.jar;%Java_Home%\lib\tools.jarPath : %Java_Home%\binPath : %Java_Home%\jre\bin</code></pre><h3 id="四、检查"><a href="#四、检查" class="headerlink" title="四、检查"></a>四、检查</h3><p>Win+R ，输入cmd ，回车</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta prompt_"># </span><span class="language-bash">看到java版本号即jdk配置成功</span></span><br><span class="line">java -version  </span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">看到可执行的选项即jre配置成功</span></span><br><span class="line">javac</span><br></pre></td></tr></table></figure><h3 id="五、备注"><a href="#五、备注" class="headerlink" title="五、备注"></a>五、备注</h3><p>可能的问题：<br>反复确认环境变量配置的路径：多了个\ 少了个\ 少了个. 等</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MAVEN 安装使用</title>
+      <link href="/AgaoBlog/2023/09/06/maven/"/>
+      <url>/AgaoBlog/2023/09/06/maven/</url>
+      
+        <content type="html"><![CDATA[<p>Apache Maven</p><h3 id="一、MAVEN-下载"><a href="#一、MAVEN-下载" class="headerlink" title="一、MAVEN 下载"></a>一、MAVEN 下载</h3><pre><code>官网地址：https://maven.apache.org/download.cgi</code></pre><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
